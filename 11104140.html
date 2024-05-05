@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>書評網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        section {
+            padding: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .book {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        .book h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>書評網站</h1>
+    </header>
+    <nav>
+        <a href="#fiction">小說</a>
+        <a href="#non-fiction">非小說</a>
+        <a href="#contact">聯絡我們</a>
+    </nav>
+    <section id="fiction">
+        <h2>小說</h2>
+        <div class="book">
+            <h3>《魔戒》</h3>
+            <p>這是一本史詩奇幻小說，描述了一個充滿魔法和冒險的世界。作者托爾金以其豐富的想像力贏得了無數讀者的喜愛。</p>
+        </div>
+        <div class="book">
+            <h3>《哈利波特》</h3>
+            <p>這是一系列關於一個年輕巫師哈利波特的冒險故事，充滿魔法、友情和勇氣。作者羅琳以其獨特的故事情節贏得了全球讀者的心。</p>
+        </div>
+    </section>
+    <section id="non-fiction">
+        <h2>非小說</h2>
+        <div class="book">
+            <h3>《心理學入門》</h3>
+            <p>這本書介紹了心理學的基本概念和理論，深入淺出地解釋了人類行為和思想背後的科學原理。</p>
+        </div>
+        <div class="book">
+            <h3>《自然奇觀》</h3>
+            <p>這是一本關於地球上各種自然奇觀的書籍，介紹了大自然的美麗和神奇，讓讀者對地球的奇妙之處有更深的了解。</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>聯絡我們</h2>
+        <p>有任何關於書評的問題或建議？請填寫下面的表格與我們聯繫，我們將竭誠為您服務。</p>
+        <form>
+            <label for="name">姓名：</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">郵箱：</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">訊息：</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="提交">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 書評網站</p>
+    </footer>
+</body>
+</html>
