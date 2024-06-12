@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Cooking Recipes</title>
+</head>
+<body>
+    <header>
+        <h1>Simple Cooking Recipes</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#popular">Popular Recipes</a></li>
+            <li><a href="#new">New Recipes</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Simple Cooking Recipes</h2>
+        <p>Discover delicious recipes to tantalize your taste buds...</p>
+    </section>
+
+    <section id="popular">
+        <h2>Popular Recipes</h2>
+        <ul>
+            <li>Recipe 1 - A brief description of Recipe 1...</li>
+            <li>Recipe 2 - A brief description of Recipe 2...</li>
+            <!-- Add more recipe items as needed -->
+        </ul>
+    </section>
+
+    <section id="new">
+        <h2>New Recipes</h2>
+        <ul>
+            <li>Recipe 3 - A brief description of Recipe 3...</li>
+            <li>Recipe 4 - A brief description of Recipe 4...</li>
+            <!-- Add more recipe items as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        <h3>Contact Us</h3>
+        <p>If you have any questions or feedback, feel free to contact us.</p>
+    </footer>
+</body>
+</html>
+
